@@ -1,0 +1,16 @@
+{
+  "name": "helix-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix \"HELIX AI\" run dev",
+    "dev:frontend": "npm --prefix \"HELIX AI/frontend/web\" run dev",
+    "dev:backend": "npm --prefix \"HELIX AI\" run dev:backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
