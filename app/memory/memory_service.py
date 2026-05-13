@@ -2,8 +2,8 @@ import os
 import json
 import httpx
 from sqlalchemy import select, desc
-from app.database_sql import async_session
-from app.models_sql import UserMemory as SQLUserMemory
+from database_sql import async_session
+from models_sql import UserMemory as SQLUserMemory
 from datetime import datetime
 import logging
 

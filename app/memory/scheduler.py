@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from app.memory.reminder_service import get_pending_reminders
+from memory.reminder_service import get_pending_reminders
 
 async def check_for_due_reminders(user_id: str):
     """

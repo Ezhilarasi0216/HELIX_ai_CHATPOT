@@ -5,14 +5,14 @@ import asyncio
 from datetime import datetime
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, desc
-from app.models_sql import ChatSession as SQLChatSession, Message as SQLMessage, UserProfile as SQLUserProfile
-from app.emotion.text_emotion import analyze_text_emotion
+from models_sql import ChatSession as SQLChatSession, Message as SQLMessage, UserProfile as SQLUserProfile
+from emotion.text_emotion import analyze_text_emotion
 from dotenv import load_dotenv
-from app.memory.memory_service import extract_and_save_facts, get_relevant_memories
-from app.emotion.emotion_history import save_daily_mood
-from app.safety.crisis_detector import detect_crisis
-from app.safety.ethical_filter import ethical_filter_response
-from app.safety.helpline_service import get_helpline_info
+from memory.memory_service import extract_and_save_facts, get_relevant_memories
+from emotion.emotion_history import save_daily_mood
+from safety.crisis_detector import detect_crisis
+from safety.ethical_filter import ethical_filter_response
+from safety.helpline_service import get_helpline_info
 from groq import Groq
 import logging
 
