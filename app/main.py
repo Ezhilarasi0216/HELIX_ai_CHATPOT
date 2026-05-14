@@ -34,3 +34,13 @@ async def startup_db_client():
 @app.get("/")
 async def root():
     return {"message": "Mental Health AI Backend is running"}
+
+@app.on_event
+app.include_router(chat_router, prefix="/chat", tags=["chat"])
+app.include_router(reminder_router, prefix="/reminder", tags=["reminder"])
+app.include_router(emotion_router, prefix="/emotion", tags=["emotion"])
+app.include_router(auth_router, prefix="/auth", tags=["auth"])
+app.include_router(journal_router, prefix="/journal", tags=["journal"])
+app.include_router(voice_router, prefix="/voice", tags=["voice"])
+app.include_router(emergency_router, prefix="/emergency", tags=["emergency"])
+app.include_router(profile_router, prefix="/profile", tags=["profile"])
