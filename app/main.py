@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 import os
@@ -26,6 +25,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(chat_router, prefix="/chat", tags=["chat"])
+app.include_router(reminder_router, prefix="/reminder", tags=["reminder"])
+app.include_router(emotion_router, prefix="/emotion", tags=["emotion"])
+app.include_router(auth_router, prefix="/auth", tags=["auth"])
+app.include_router(journal_router, prefix="/journal", tags=["journal"])
+app.include_router(voice_router, prefix="/voice", tags=["voice"])
+app.include_router(emergency_router, prefix="/emergency", tags=["emergency"])
+app.include_router(profile_router, prefix="/profile", tags=["profile"])
 
 @app.on_event("startup")
 async def startup_db_client():
