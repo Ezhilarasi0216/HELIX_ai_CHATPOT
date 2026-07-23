@@ -1,0 +1,7 @@
+{
+  "name": "EmpathyAI",
+  "description": "An advanced psychiatric counseling assistant providing multi-modal emotional support and crisis intervention capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

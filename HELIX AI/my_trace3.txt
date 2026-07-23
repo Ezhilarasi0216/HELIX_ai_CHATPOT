@@ -1,0 +1,100 @@
+DEBUG: env_path=D:\HELIX AI\backend\.env
+DEBUG: OPENROUTER_API_KEY found: Yes
+Successfully connected to MongoDB Atlas!
+DEBUG ERROR: Exception: OpenRouter Error 404: {"error":{"message":"No endpoints found for google/gemma-2-9b-it:free.","code":404},"user_id":"user_3Ada4CiqsVrhw7AmH98dm4h4Blm"}
+INFO:     127.0.0.1:35463 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62386 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62386 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52756 - "OPTIONS /chat/ HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+ERROR:app.chat.service:!!! 
+OPENROUTER API ERROR !!!: 
+Exception: OpenRouter Error 
+404: {"error":{"message":"No 
+endpoints found for google/ge
+mma-2-9b-it:free.","code":404
+},"user_id":"user_3Ada4CiqsVr
+hw7AmH98dm4h4Blm"}
+DEBUG ERROR: Exception: OpenRouter Error 404: {"error":{"message":"No endpoints found for google/gemma-2-9b-it:free.","code":404},"user_id":"user_3Ada4CiqsVrhw7AmH98dm4h4Blm"}
+INFO:     127.0.0.1:52756 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41274 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41274 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19432 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19432 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19432 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19432 - "GET /chat/latest/guest_1772931378271_qhdp1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60849 - "GET /chat/latest/guest_1772931969504_v2che HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60849 - "GET /chat/latest/guest_1772931969504_v2che HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+ERROR:app.chat.service:!!! 
+OPENROUTER API ERROR !!!: 
+ReadTimeout: 
+DEBUG ERROR: ReadTimeout: 
+INFO:     127.0.0.1:2631 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55544 - "GET /chat/latest/guest_1772932093753_6otd9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55544 - "GET /chat/latest/guest_1772932093753_6otd9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52625 - "OPTIONS /chat/ HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: 
+POST https://openrouter.ai/ap
+i/v1/chat/completions 
+"HTTP/1.1 404 Not Found"
+ERROR:app.chat.service:!!! 
+OPENROUTER API ERROR !!!: 
+Exception: OpenRouter Error 
+404: {"error":{"message":"No 
+endpoints found for google/ge
+mma-2-9b-it:free.","code":404
+},"user_id":"user_3Ada4CiqsVr
+hw7AmH98dm4h4Blm"}
+DEBUG ERROR: Exception: OpenRouter Error 404: {"error":{"message":"No endpoints found for google/gemma-2-9b-it:free.","code":404},"user_id":"user_3Ada4CiqsVrhw7AmH98dm4h4Blm"}
+INFO:     127.0.0.1:52625 - "POST /chat/ HTTP/1.1" 200 OK

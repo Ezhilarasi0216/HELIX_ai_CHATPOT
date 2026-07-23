@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+motor
+redis
+celery
+requests
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+httpx
+groq
+python-dotenv
+sqlalchemy
+aiosqlite
+
